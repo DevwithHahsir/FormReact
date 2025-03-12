@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 import { FaFacebook } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
@@ -6,6 +8,9 @@ import { FaGoogle } from "react-icons/fa";
 import "../cssFiles/login.css"
 
 export default function Login() {
+
+
+
   return (
     <>
      
@@ -58,7 +63,7 @@ export default function Login() {
               </div>
 
                  <div className="btn">
-                    <button>Sign in</button>
+                    <button > <Link to={"/dasboard"}>Sign in</Link></button>
                  </div>
 
                  <div className="create-account">
