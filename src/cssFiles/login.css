@@ -7,7 +7,7 @@
 body {
     display: flex;
     /* flex-direction: column; */
-    height: 95vh;
+    height: 96vh;
     justify-content: center;
     align-items: center;
     background-color: #F5F5F5;
@@ -115,6 +115,11 @@ hr {
     justify-content: space-between;
 }
 
+.checkbox input[type="checkbox"]
+{
+    width: 1rem;
+}
+
 
 .btn {
 
@@ -143,6 +148,14 @@ hr {
     background: linear-gradient(to right, #1a6f85, #5fbbcf);
     /* Gradient background */
 
+}
+.btn a{
+    color: #3c3d3d;
+    text-decoration: none;
+}
+.btn a:hover
+{
+    color: white;
 }
 
 .create-account

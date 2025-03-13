@@ -5,7 +5,7 @@ export default function Contacts() {
   return (
     <>
       <div className="contact-detail">
-        <div className="heading">
+        <div className="contact-heading ">
           <h1>Contact Details</h1>
         </div>
         <table>
@@ -40,11 +40,10 @@ export default function Contacts() {
             </td>
           </tr>
         </table>
-      </div>
+      
 
 
 
-      <div className="contact-detail factoryDetail">
         <div className="heading">
           <h1>Client's Factory Details</h1>
         </div>
@@ -98,21 +97,19 @@ export default function Contacts() {
             </td>
           </tr>
         </table>
-      </div>
+      
 
 
 
 
-      <div className="form-container contact-detail">
+      
             <div className="heading">
                 <h1>Required Services</h1>
             </div>
         <table>
             
           <thead>
-            <tr>
-              <th className="row1">HIGG FEM Verification</th>
-            </tr>
+           
             <tr>
               <th>SL NO</th>
               <th>Required Information</th>
@@ -173,6 +170,7 @@ export default function Contacts() {
             </tr>
           </tbody>
         </table>
+      
       </div>
     </>
   );
