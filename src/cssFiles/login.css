@@ -4,15 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    /* flex-direction: column; */
-    height: 96vh;
-    justify-content: center;
-    align-items: center;
-    background-color: #F5F5F5;
-}
 
+.main-container
+{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
 form {
     width: 30vw;
     height: auto;
@@ -34,10 +33,7 @@ form {
    
 }
 
-/* .title h5
-{
-    
-} */
+
 
 .googleAuth {
 
@@ -73,7 +69,7 @@ form {
 }
 
 label {
-    font-size: larger;
+    font-size: large;
 }
 
 input {
@@ -139,14 +135,14 @@ hr {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(to right, #2193b0, #6dd5ed);
-    /* Gradient background */
+    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
 
 .btn button:hover {
     color: #F5F5F5;
     background: linear-gradient(to right, #1a6f85, #5fbbcf);
-    /* Gradient background */
+    
 
 }
 .btn a{

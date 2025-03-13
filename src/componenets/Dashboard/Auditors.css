@@ -1,0 +1,80 @@
+/* Container */
+.auditors-container {
+    background-color: #2d2f36;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    height: max-content;
+    text-align: center;
+  }
+  
+  /* Header */
+  .auditors-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .auditors-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .new-auditor-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Grid */
+  .auditors-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+  }
+  
+  .auditor-card {
+    text-align: center;
+  }
+  
+  .auditor-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+  }
+  
+  .auditor-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0 2px;
+  }
+  
+  .auditor-date {
+    font-size: 11px;
+    color: #b0b0b0;
+  }
+  
+  /* View All Button */
+  .view-all button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .view-all button:hover {
+    text-decoration: underline;
+  }
+  

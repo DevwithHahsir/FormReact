@@ -1,0 +1,53 @@
+/* Calendar Container */
+.calendar-container {
+    background-color: #009e3c; /* Green background */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: max-content;
+    text-align: center;
+  }
+  
+  /* Calendar Header */
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .calendar-icon {
+    font-size: 20px;
+  }
+  
+  /* Calendar Title */
+  h4 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* React Calendar Custom Styling */
+  .custom-calendar {
+    width: 100%;
+    background: transparent;
+    border: none;
+  }
+  
+  .custom-calendar .react-calendar__navigation {
+    background: none;
+    color: white;
+  }
+  
+  .custom-calendar .react-calendar__month-view__days__day {
+    color: white;
+  }
+  
+  .custom-calendar .react-calendar__tile--active {
+    background: #007b2e !important;
+    color: white !important;
+    border-radius: 5px;
+  }
+  
