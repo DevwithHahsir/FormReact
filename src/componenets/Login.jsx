@@ -1,17 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-import { FaFacebook } from "react-icons/fa";
-import { FaApple } from "react-icons/fa";
-import { FaGoogle } from "react-icons/fa";
-
+import { useNavigate } from "react-router-dom";
+import { FaFacebook, FaApple, FaGoogle } from "react-icons/fa";
 import "../cssFiles/login.css";
 
 export default function Login() {
+  const navigate = useNavigate();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Perform login logic here
+    navigate("/dashboard");
+  };
+
   return (
     <>
       <div className="main-container">
-        <form action="">
+        <form onSubmit={handleSubmit}>
           <div className="logo">
             <img src="" alt="" />
           </div>
@@ -21,7 +25,7 @@ export default function Login() {
           </div>
 
           <div className="title">
-            <h5>Please Enter your Deatils</h5>
+            <h5>Please Enter your Details</h5>
           </div>
 
           <div className="googleAuth">
@@ -62,24 +66,21 @@ export default function Login() {
           <div className="alternates">
             <div className="checkbox">
               <input type="checkbox" id="check" />
-              <label htmlFor="">Remember the Password ?</label>
+              <label htmlFor="check">Remember the Password?</label>
             </div>
 
             <div className="forget">
-              <a href="">Foreget Password?</a>
+              <a href="">Forget Password?</a>
             </div>
           </div>
 
           <div className="btn">
-            <button>
-              {" "}
-              <Link to={"/dashboard"}>Sign in</Link>
-            </button>
+            <button type="submit">Sign in</button>
           </div>
 
           <div className="create-account">
             <h5>
-              Dont have an account ? <a href="">create account</a>
+              Don't have an account? <a href="">Create account</a>
             </h5>
           </div>
         </form>
