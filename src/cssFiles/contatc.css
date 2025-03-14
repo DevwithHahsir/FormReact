@@ -3,7 +3,7 @@
     margin: 20px;
   }
   
-  h1, h2, h3 {
+  .form-container h1,.form-container h2,.form-container h3 {
     color: #333;
     margin-top: 20px;
     margin-bottom: 10px;
